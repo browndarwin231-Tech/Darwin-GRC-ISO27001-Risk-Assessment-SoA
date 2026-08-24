@@ -1,0 +1,18 @@
+Control ID,Control Area,Applicable,Implementation Status,Justification,Risk Addressed,Evidence Expected,Owner
+A.5.15,Access Control,Yes,Implemented,Access controls are required to restrict system and data access,Unauthorized access,Access control policy and user access records,IT Security
+A.5.16,Identity Management,Yes,Implemented,Identity lifecycle controls are required for user provisioning and deprovisioning,Former employee access,User provisioning and termination records,IT / HR
+A.5.18,Access Rights,Yes,Partial,Recurring reviews are needed to validate user access remains appropriate,Excessive permissions,Quarterly access review reports,IT Security
+A.8.2,Privileged Access Rights,Yes,Partial,Privileged accounts present elevated risk and require stronger oversight,Privileged account compromise,Privileged access inventory and approval records,IT Security
+A.8.5,Secure Authentication,Yes,Implemented,MFA helps protect accounts against credential compromise,Account compromise,MFA configuration screenshots and authentication policy,IT Security
+A.8.8,Management of Technical Vulnerabilities,Yes,Partial,Vulnerability management is required to reduce exposure to known weaknesses,Delayed vulnerability remediation,Vulnerability scan reports and remediation tickets,Vulnerability Management
+A.8.13,Information Backup,Yes,Partial,Backups are required to support recovery from disruption or data loss,Backup restoration failure,Backup logs and restoration test reports,IT Operations
+A.8.15,Logging,Yes,Implemented,Security logging supports monitoring investigations and accountability,Incomplete log visibility,SIEM screenshots and log retention settings,Security Operations
+A.8.16,Monitoring Activities,Yes,Implemented,Monitoring supports timely identification of security events,Undetected security events,Alert records and monitoring dashboards,Security Operations
+A.5.19,Supplier Relationships,Yes,Partial,Vendors may access systems or sensitive data and require risk review,Third-party vendor compromise,Vendor questionnaires and risk assessments,GRC / Procurement
+A.5.20,Supplier Agreements,Yes,Partial,Contracts should include security responsibilities and requirements,Supplier security failures,Security clauses and signed agreements,Legal / Procurement
+A.5.22,Supplier Service Monitoring,Yes,Partial,High-risk suppliers require recurring oversight,Third-party control degradation,Annual vendor reassessment records,GRC
+A.5.24,Incident Management Planning,Yes,Implemented,Documented procedures are required for coordinated incident response,Incident response failure,Incident response plan,Security Team
+A.5.26,Response to Information Security Incidents,Yes,Partial,Response procedures should be tested and improved regularly,Incident response failure,Tabletop exercise reports and lessons learned,Security Team
+A.6.3,Information Security Awareness,Yes,Implemented,Employees require recurring security awareness training,Employee phishing compromise,Training completion reports,HR / Security Awareness
+A.5.29,Information Security During Disruption,Yes,Partial,Security controls must continue during disruptive events,Business continuity disruption,BCP and disaster recovery exercise reports,IT Operations
+A.5.30,ICT Readiness for Business Continuity,Yes,Partial,Technology recovery capability must be tested and maintained,Business continuity disruption,Disaster recovery test results,IT Operations
