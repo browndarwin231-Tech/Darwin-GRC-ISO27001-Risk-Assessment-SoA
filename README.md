@@ -195,6 +195,17 @@ Darwin-GRC-ISO27001-Risk-Assessment-SoA/
 ├── residual_risk_review.md
 └── evidence/
 
+## Evidence Screenshots
+
+### ISO 27001 Risk Register
+![ISO 27001 Risk Register](evidence/iso27001-risk-register.png)
+
+### Statement of Applicability
+![Statement of Applicability](evidence/statement-of-applicability.png)
+
+### Residual Risk Review
+![Residual Risk Review](evidence/residual-risk-review.png)
+
 ## Skills Demonstrated
 
 - ISO 27001
