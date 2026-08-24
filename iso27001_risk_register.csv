@@ -1,0 +1,11 @@
+Risk ID,Risk Description,Asset/Process,Likelihood,Impact,Inherent Risk Score,Inherent Risk Rating,Existing Control,Treatment,Recommended Action,Residual Likelihood,Residual Impact,Residual Risk Score,Residual Risk Rating
+ISO-R-001,Privileged account compromise,Identity and Access Management,3,5,15,High,MFA and administrator restrictions,Mitigate,Enforce MFA for all privileged accounts and perform quarterly privileged access reviews,2,3,6,Medium
+ISO-R-002,Former employee retains system access,Employee Offboarding,3,5,15,High,Manual account deactivation process,Mitigate,Automate account disabling and perform recurring inactive account reviews,1,4,4,Low
+ISO-R-003,Third-party vendor compromise,Third-Party Risk Management,3,4,12,High,Informal vendor review process,Mitigate,Implement formal vendor security questionnaires risk classification and annual reassessments,2,3,6,Medium
+ISO-R-004,Delayed vulnerability remediation,Vulnerability Management,3,4,12,High,Recurring vulnerability scanning,Mitigate,Define severity-based remediation SLAs and document risk acceptance for exceptions,2,3,6,Medium
+ISO-R-005,Incident response failure,Incident Management,3,5,15,High,Documented incident response plan,Mitigate,Conduct annual tabletop exercises and document corrective actions,2,3,6,Medium
+ISO-R-006,Backup restoration failure,Backup and Recovery,2,5,10,Medium,Regular backups,Mitigate,Perform quarterly restoration testing and document recovery results,1,4,4,Low
+ISO-R-007,Incomplete security log retention,Logging and Monitoring,2,4,8,Medium,Centralized logging,Mitigate,Define retention requirements and increase retention for critical security logs,1,3,3,Low
+ISO-R-008,Employee phishing compromise,Security Awareness,3,4,12,High,Annual security awareness training,Mitigate,Conduct phishing simulations and provide targeted follow-up training,2,3,6,Medium
+ISO-R-009,Unauthorized access due to excessive permissions,Access Control,3,5,15,High,Role-based access controls,Mitigate,Perform quarterly access reviews and remove unnecessary permissions,2,3,6,Medium
+ISO-R-010,Disruption caused by untested business continuity procedures,Business Continuity,2,5,10,Medium,Documented BCP and disaster recovery plans,Mitigate,Conduct annual BCP and disaster recovery exercises,1,4,4,Low
